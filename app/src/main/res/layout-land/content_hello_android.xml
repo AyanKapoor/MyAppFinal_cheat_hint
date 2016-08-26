@@ -98,17 +98,17 @@
         android:onClick="sendCheat"
         android:layout_alignLeft="@+id/button_no"
         android:layout_alignStart="@+id/button_no"
-        android:background="#1d40db" />
+        android:background="#11aee3" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SHOW HINT"
-        android:id="@+id/button_hint"
+        android:id="@+id/button_send"
         android:onClick="sendMessage"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/button_yes"
         android:layout_alignEnd="@+id/button_yes"
-        android:background="#1d40db" />
+        android:background="#11aee3" />
 
 </RelativeLayout>

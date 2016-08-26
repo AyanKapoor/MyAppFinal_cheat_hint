@@ -91,7 +91,7 @@
         android:text="Show Hint"
         android:onClick="sendMessage"
         android:id="@+id/button_send"
-        android:background="#1d40db"
+        android:background="#11aee3"
         android:layout_below="@+id/button_next"
         android:layout_alignLeft="@+id/button_no"
         android:layout_alignStart="@+id/button_no" />
@@ -103,7 +103,7 @@
         android:text="Show Cheat"
         android:id="@+id/button_cheat"
         android:onClick="sendCheat"
-        android:background="#1d40db"
+        android:background="#11aee3"
         android:layout_below="@+id/button_next"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
