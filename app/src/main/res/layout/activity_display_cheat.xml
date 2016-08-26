@@ -28,5 +28,6 @@
         android:id="@+id/text_hint"
         android:layout_alignTop="@+id/text_number2"
         android:layout_centerHorizontal="true"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:textColor="#12cdba" />
 </RelativeLayout>

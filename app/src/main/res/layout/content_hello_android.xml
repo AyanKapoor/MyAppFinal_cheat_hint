@@ -21,7 +21,8 @@
         android:layout_marginBottom="165dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#33982c" />
 
     <Button
         android:layout_width="wrap_content"
@@ -30,7 +31,8 @@
         android:id="@+id/button_no"
         android:layout_alignTop="@+id/button_yes"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="#f01a1a" />
 
     <Button
         android:layout_width="wrap_content"
@@ -89,9 +91,10 @@
         android:text="Show Hint"
         android:onClick="sendMessage"
         android:id="@+id/button_send"
+        android:background="#1d40db"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/button_next"
-        android:layout_alignStart="@+id/button_next" />
+        android:layout_alignRight="@+id/textView_score"
+        android:layout_alignEnd="@+id/textView_score" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -100,8 +103,9 @@
         android:text="Show Cheat"
         android:id="@+id/button_cheat"
         android:onClick="sendCheat"
-        android:layout_above="@+id/button_send"
-        android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView" />
+        android:background="#1d40db"
+        android:layout_alignTop="@+id/button_send"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
 
 </RelativeLayout>
