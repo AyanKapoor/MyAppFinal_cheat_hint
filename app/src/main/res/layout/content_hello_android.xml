@@ -92,9 +92,9 @@
         android:onClick="sendMessage"
         android:id="@+id/button_send"
         android:background="#1d40db"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView" />
+        android:layout_alignTop="@+id/button_cheat"
+        android:layout_alignRight="@+id/text_number"
+        android:layout_alignEnd="@+id/text_number" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
